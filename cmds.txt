@@ -1,0 +1,12 @@
+=== Posgress ==
+pg_lsclusters
+- get the cluser num and start
+sudo pg_ctlcluster 14 main start 
+- here cluser num = 14
+
+- use below cmd to go to psql
+sudo -u postgres psql
+
+=========
+to run go installed program 
+use cmd : /home/noor/go/bin/goose -version
